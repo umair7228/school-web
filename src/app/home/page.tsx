@@ -13,8 +13,11 @@ function HomePage() {
   };
 
   // Function to close video when clicking outside the video
-  const handleCloseModal = (e: any) => {
-    if (e.target.classList.contains("modal")) {
+  const handleCloseModal = (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
+
+    const target = e.target as HTMLDivElement;
+
+    if (target.classList.contains("modal")) {
       setVideoOpen(false);
     }
   };
