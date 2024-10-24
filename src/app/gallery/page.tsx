@@ -1,7 +1,6 @@
 import React from "react";
 import hero from "../../../public/bg-images/hero-image.webp";
 import Image from "next/image";
-import { Check } from "lucide-react";
 import img1 from '../../../public/gallery-images/image1.jpg'
 import img2 from '../../../public/gallery-images/image2.jpg'
 import img3 from '../../../public/gallery-images/image3.jpg'
